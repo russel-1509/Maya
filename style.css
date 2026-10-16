@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maya | IA para salvar a Mata Atlântica</title>
+    <meta
+      name="description"
+      content="Fluxograma interativo sobre como a inteligência artificial pode ajudar a salvar a Mata Atlântica."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="logo-wrap">
+        <span class="logo-mark">M</span>
+        <span>Maya</span>
+      </div>
+      <nav class="nav">
+        <a href="#inicio">Início</a>
+        <a href="#fluxograma">Fluxograma</a>
+        <a href="#solucoes">Soluções</a>
+        <a href="#impacto">Impacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">Tecnologia para a natureza</p>
+          <h1>Como a IA pode ajudar o homem a salvar a Mata Atlântica</h1>
+          <p class="lead">
+            A inteligência artificial pode transformar a forma como monitoramos,
+            protegemos e restauramos os ecossistemas mais ameaçados do Brasil.
+            Quando usada com responsabilidade, a IA se torna uma aliada do cuidado,
+            da ciência e da ação coletiva.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#fluxograma">Explorar fluxograma</a>
+            <a class="button secondary" href="#solucoes">Ver soluções</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Ilustração da Mata Atlântica">
+          <div class="forest-card">
+            <div class="ring ring-one"></div>
+            <div class="ring ring-two"></div>
+            <div class="ring ring-three"></div>
+            <div class="tree tree-one"></div>
+            <div class="tree tree-two"></div>
+            <div class="tree tree-three"></div>
+            <div class="tree tree-four"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="flow-section" id="fluxograma">
+        <div class="section-heading">
+          <p class="eyebrow">Fluxograma</p>
+          <h2>Da ameaça à solução</h2>
+        </div>
+
+        <div class="flowchart" aria-label="Fluxograma interativo">
+          <button class="node node-main" data-target="problema">
+            <span>Problemas</span>
+          </button>
+
+          <div class="branch branch-a">
+            <button class="node node-branch" data-target="monitoramento">
+              <span>Monitoramento</span>
+            </button>
+            <button class="node node-branch" data-target="restauracao">
+              <span>Restauração</span>
+            </button>
+            <button class="node node-branch" data-target="prevencao">
+              <span>Prevenção</span>
+            </button>
+          </div>
+
+          <div class="branch branch-b">
+            <button class="node node-branch" data-target="comunidade">
+              <span>Comunidade</span>
+            </button>
+            <button class="node node-result" data-target="resultado">
+              <span>Resultado</span>
+            </button>
+          </div>
+        </div>
+
+        <aside class="info-panel" aria-live="polite">
+          <p class="eyebrow panel-kicker">Detalhe</p>
+          <h3 id="panel-title">Monitoramento inteligente</h3>
+          <p id="panel-text">
+            A IA pode analisar imagens de satélite, drones e sensores para detectar áreas em risco,
+            mudanças de cobertura vegetal e focos de incêndio em tempo real.
+          </p>
+          <ul id="panel-list">
+            <li>Mapeamento automático de áreas desmatadas</li>
+            <li>Detecção de incêndios com alertas rápidos</li>
+            <li>Análise de imagens para comparar anos e regiões</li>
+            <li>Identificação de áreas prioritárias para proteção</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="solutions" id="solucoes">
+        <div class="section-heading">
+          <p class="eyebrow">Aplicações</p>
+          <h2>Como a IA atua no cuidado da Mata Atlântica</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="solution-card">
+            <span class="card-tag">1</span>
+            <h3>Monitoramento por satélite</h3>
+            <p>
+              Imagens de satélite e algoritmos de visão computacional ajudam a mapear áreas
+              desmatadas, encobrir focos de incêndio e avaliar a vegetação em diferentes épocas.
+            </p>
+          </article>
+
+          <article class="solution-card">
+            <span class="card-tag">2</span>
+            <h3>Identificação de espécies</h3>
+            <p>
+              A IA reconhece espécies nativas, plantas em risco e padrões de biodiversidade,
+              permitindo um diagnóstico mais rápido de ecossistemas ameaçados.
+            </p>
+          </article>
+
+          <article class="solution-card">
+            <span class="card-tag">3</span>
+            <h3>Restauração com dados</h3>
+            <p>
+              Modelos preditivos ajudam a definir onde plantar, quais espécies escolher e como
+              recuperar áreas degradadas de forma mais eficiente.
+            </p>
+          </article>
+
+          <article class="solution-card">
+            <span class="card-tag">4</span>
+            <h3>Combate rápido a incêndios</h3>
+            <p>
+              Com sensores e análises climáticas, a IA pode prever riscos e orientar respostas mais
+              ágeis, reduzindo o impacto no solo, na fauna e na água.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="impact" id="impacto">
+        <div class="section-heading">
+          <p class="eyebrow">Impacto</p>
+          <h2>Resultados que uma ação inteligente pode gerar</h2>
+        </div>
+
+        <div class="stats">
+          <div class="stat-box">
+            <strong>+60%</strong>
+            <span>mais agilidade na detecção de risco</span>
+          </div>
+          <div class="stat-box">
+            <strong>25%</strong>
+            <span>melhor planejamento de áreas de restauração</span>
+          </div>
+          <div class="stat-box">
+            <strong>100%</strong>
+            <span>compromisso com a proteção do ecossistema</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Maya • IA para a natureza • Protegendo a Mata Atlântica</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
